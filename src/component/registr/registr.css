@@ -1,0 +1,89 @@
+.form {
+  width: 639px;
+  height: 460px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  background-color: #fafafa;
+  z-index: 3;
+  border-radius: 4px;
+}
+.form h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 21px 16px;
+  width: 100%;
+  background-color: #fff;
+}
+.inputs-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 328px;
+  height: 56px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  background-color: rgba(33, 33, 33, 0.08);
+  margin-top: 16px;
+  margin-left: 21px;
+  padding: 8px 52px;
+}
+.inputs-block p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.38);
+}
+.inputs-block input {
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.inputs-block:nth-child(1) {
+  margin-top: 33px;
+}
+.first-name {
+  position: absolute;
+  width: 250px;
+  height: 24px;
+  top: 115px;
+  left: 73px;
+  background-color: transparent;
+}
+.last-name {
+  position: absolute;
+  width: 250px;
+  height: 24px;
+  top: 187px;
+  left: 73px;
+  background-color: transparent;
+}
+.email {
+  position: absolute;
+  width: 250px;
+  height: 24px;
+  top: 259px;
+  left: 73px;
+  background-color: transparent;
+}
+.error {
+  color:rgb(243, 16, 16);
+  font-size: 20px;
+}
+.invalid {
+  border: 2px solid red;
+}

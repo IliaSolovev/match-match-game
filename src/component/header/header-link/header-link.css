@@ -1,0 +1,53 @@
+.header-nav {
+  margin-left: 152px;
+  display: flex;
+}
+.header-nav li {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 96px;
+  height: 64px;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+.header-nav li span {
+  color: #2196F3;
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.header-nav li span.whites {
+  width: 20px;
+  height: 20px;
+  background-color: #2196F3;
+}
+.whites {
+  background-image: url(../../../assets/beststrong.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+.blue {
+  background-image: url(../../../assets/setings.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: center;
+
+}
+.header-nav li p {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 9px;
+}
